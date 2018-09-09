@@ -1,0 +1,24 @@
+{
+  "name": "vuepress",
+  "author": "adry.dabp@gmail.com",
+  "version": "1.0.0",
+  "description": "Proyecto base para vuepress",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "babel vuepress dev docs"
+  },
+  "keywords": [
+    "vuepress",
+    "vue-press",
+    "vuejs",
+    "vuejspress"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0"
+  }
+}

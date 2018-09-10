@@ -1,8 +1,12 @@
-export default {
+module.exports = {
   routes: [
     {
       text: 'home',
       link: '/'
+    },
+    {
+      text: 'novedad',
+      link: '/novedades/'
     },
     {
       text: 'options',

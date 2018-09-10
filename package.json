@@ -8,7 +8,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "node vuepress dev docs"
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "keywords": [
     "vuepress",
@@ -19,7 +20,8 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0"
+    "@babel/core": "^7.0.0",
+    "webpack": "^4.17.2"
   },
   "dependencies": {
     "vuepress": "^0.14.2"
